@@ -23,9 +23,7 @@ end
     end 
   end
   "#{word[con.length..-1] + con.join + "ay"}"
-    
-    
-end
+ end
   
   
   
