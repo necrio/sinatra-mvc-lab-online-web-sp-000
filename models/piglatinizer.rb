@@ -13,6 +13,7 @@ end
       "#{word}way"
       #pigs a word starting with a-u
     else 
+      con = 
       #pigs a word starting with const. 
     end 
     
