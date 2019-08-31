@@ -15,10 +15,10 @@ end
     else 
       con = []
       con << word[0]
-      ["a", "e", "i", "o", "u"].include?(word[1]) == false
+      if ["a", "e", "i", "o", "u"].include?(word[1]) == false
           con << word[1]
-        if ["a", "e", "i", "o", "u"].include?(word[2]) == false
-            consonants << word[2]
+      if ["a", "e", "i", "o", "u"].include?(word[2]) == false
+            con << word[2]
       #pigs a word starting with const. 
     end 
     
