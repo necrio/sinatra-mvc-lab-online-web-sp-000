@@ -1,7 +1,7 @@
 class PigLatinizer
   
   def piglatinize(string)
-    aWord =
+    aWord =string.split(" ")
 end
   
   def piglatinize_word(word)
