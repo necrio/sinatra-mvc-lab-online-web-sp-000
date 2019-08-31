@@ -12,7 +12,7 @@ end
     if fl =="a"  || fl == "e" || fl == "u" || fl == "o" || fl == "i"
       #pigs a word starting with a-u
     else 
-      
+      #pigs a word starting with const. 
     
 end
   
