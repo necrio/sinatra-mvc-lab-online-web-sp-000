@@ -15,7 +15,8 @@ end
     else 
       con = []
       con << word[0]
-      
+      ["a", "e", "i", "o", "u"].include?(word[1]) == false
+          con << word[1]
       #pigs a word starting with const. 
     end 
     
