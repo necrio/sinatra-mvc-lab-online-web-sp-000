@@ -10,6 +10,7 @@ end
     fl = word[0].downcase 
     
     if "a", "e", "i", "o", "u"].include?(fl)
+      
       #pigs a word starting with a-u
     else 
       #pigs a word starting with const. 
