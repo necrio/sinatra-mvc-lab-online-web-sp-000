@@ -15,6 +15,7 @@ end
     else 
       con = []
       con << word[0]
+      
       #pigs a word starting with const. 
     end 
     
