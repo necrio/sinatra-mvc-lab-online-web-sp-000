@@ -17,6 +17,8 @@ end
       con << word[0]
       ["a", "e", "i", "o", "u"].include?(word[1]) == false
           con << word[1]
+        if ["a", "e", "i", "o", "u"].include?(word[2]) == false
+            consonants << word[2]
       #pigs a word starting with const. 
     end 
     
