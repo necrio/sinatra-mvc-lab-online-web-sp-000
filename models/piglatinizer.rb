@@ -14,7 +14,7 @@ end
       #pigs a word starting with a-u
     else 
       con = []
-      con << word
+      con << word[0]
       #pigs a word starting with const. 
     end 
     
