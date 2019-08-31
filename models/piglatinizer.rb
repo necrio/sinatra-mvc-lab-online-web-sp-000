@@ -21,6 +21,8 @@ end
             con << word[2]
       #pigs a word starting with const. 
     end 
+  end
+  "#{word[con.length..-1] + con.join + "ay"}"
     
     
 end
