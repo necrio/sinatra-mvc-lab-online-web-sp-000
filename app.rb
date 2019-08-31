@@ -8,6 +8,6 @@ class App < Sinatra::Base
   
   post '/piglatinizer' do 
     @text = params[:user_phrse]
-    @piglatinizer = 
+    @piglatinizer = PigLatinizer.new 
   
 end
