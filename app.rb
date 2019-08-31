@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
   
   post '/piglatinizer' do 
-    @text = params[:]
+    @text = params[:user_phrse]
   
 end
